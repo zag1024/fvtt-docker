@@ -1,0 +1,14 @@
+version: '3.7'
+
+services:
+  fvtt:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    hostname: foundryvtt
+    image: foundryvtt
+    ports:
+      - "3000:3000"
+    volumes:
+      - './data:/home/foundry/data:z'
+    restart: always

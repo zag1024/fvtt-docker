@@ -1,0 +1,4 @@
+/data
+/foundryvtt
+!/foundryvtt/.gitkeep
+/docker-compose.yml
