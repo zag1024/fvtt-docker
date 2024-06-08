@@ -1,6 +1,2 @@
 /data
-/foundryvtt
-!/foundryvtt/.gitkeep
 /compose.yml
-/FoundryVTT-*.zip
-/foundryvtt~

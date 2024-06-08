@@ -1,8 +1,5 @@
 services:
   fvtt:
-    build:
-      context: ./
-      dockerfile: ./Dockerfile
     hostname: foundryvtt
     image: foundryvtt
     ports:
